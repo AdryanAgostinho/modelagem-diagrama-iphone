@@ -40,39 +40,4 @@ Representa a funcionalidade de navegação na internet.
 Implementa as três interfaces, fornecendo implementações concretas para cada método.
 
 
-
-classDiagram
-    class ReprodutorMusical {
-        +tocar(): void
-        +pausar(): void
-        +selecionarMusica(String): void
-    }
-
-    class AparelhoTelefonico {
-        +ligar(String): void
-        +atender(): void
-        +iniciarCorreioVoz(): void
-    }
-
-    class NavegadorInternet {
-        +exibirPagina(String): void
-        +adicionarNovaAba(): void
-        +atualizarPagina(): void
-    }
-
-    class iPhone {
-        - modelo: String
-        +tocar(): void
-        +pausar(): void
-        +selecionarMusica(String): void
-        +ligar(String): void
-        +atender(): void
-        +iniciarCorreioVoz(): void
-        +exibirPagina(String): void
-        +adicionarNovaAba(): void
-        +atualizarPagina(): void
-    }
-
-    ReprodutorMusical <|.. iPhone
-    AparelhoTelefonico <|.. iPhone
-    NavegadorInternet <|.. iPhone
+![Diagrama UML do iPhone](diagrama.png)
